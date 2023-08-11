@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevArt.Api", "KevArt.Api\KevArt.Api.csproj", "{7378DEDC-62F5-4094-828A-69E7091F2935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevArt.Entities", "KevArt.Entities\KevArt.Entities.csproj", "{FF99EFCA-F28C-4EF6-B172-05FF6846E6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevArt.Core", "KevArt.Core\KevArt.Core.csproj", "{8FE06BC0-130E-476C-B696-A27E4E99361B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevArt.Models", "KevArt.Models\KevArt.Models.csproj", "{6EE4788F-94CA-4419-BADE-2ECB2866D42E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevArt.Database", "KevArt.Database\KevArt.Database.csproj", "{F3297D87-E5C3-440A-97CD-524DE59E3C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KevArt.Helpers", "KevArt.Helpers\KevArt.Helpers.csproj", "{359471C1-3A97-4429-8F17-D8768D204C02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7378DEDC-62F5-4094-828A-69E7091F2935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7378DEDC-62F5-4094-828A-69E7091F2935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7378DEDC-62F5-4094-828A-69E7091F2935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7378DEDC-62F5-4094-828A-69E7091F2935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF99EFCA-F28C-4EF6-B172-05FF6846E6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF99EFCA-F28C-4EF6-B172-05FF6846E6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF99EFCA-F28C-4EF6-B172-05FF6846E6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF99EFCA-F28C-4EF6-B172-05FF6846E6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE06BC0-130E-476C-B696-A27E4E99361B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE06BC0-130E-476C-B696-A27E4E99361B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE06BC0-130E-476C-B696-A27E4E99361B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE06BC0-130E-476C-B696-A27E4E99361B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE4788F-94CA-4419-BADE-2ECB2866D42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE4788F-94CA-4419-BADE-2ECB2866D42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE4788F-94CA-4419-BADE-2ECB2866D42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE4788F-94CA-4419-BADE-2ECB2866D42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3297D87-E5C3-440A-97CD-524DE59E3C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3297D87-E5C3-440A-97CD-524DE59E3C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3297D87-E5C3-440A-97CD-524DE59E3C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3297D87-E5C3-440A-97CD-524DE59E3C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359471C1-3A97-4429-8F17-D8768D204C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359471C1-3A97-4429-8F17-D8768D204C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359471C1-3A97-4429-8F17-D8768D204C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359471C1-3A97-4429-8F17-D8768D204C02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA789DC6-36EC-48EB-AA37-506A0DD3CF79}
+	EndGlobalSection
+EndGlobal
