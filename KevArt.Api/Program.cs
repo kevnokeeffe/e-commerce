@@ -1,4 +1,6 @@
 using KevArt.Database;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
@@ -9,10 +11,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-if(environment == Environments.Development)
-    builder.Services.AddDbContext<DataContext, DataContextSqlite>();
-else
-    builder.Services.AddDbContext<DataContext>();
+
+    builder.Services.AddDbContext<DataContext>(opt =>
+    {
+        opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+    });
 
 var app = builder.Build();
 
