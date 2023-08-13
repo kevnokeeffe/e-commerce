@@ -1,9 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
   </PropertyGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\KevArt.Database\KevArt.Database.csproj" />
+		<ProjectReference Include="..\KevArt.Models\KevArt.Models.csproj" />
+	</ItemGroup>
 </Project>
